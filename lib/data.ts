@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import project1 from "@/public/project1.webp";
+import project6 from "@/public/project6.webp";
 import project2 from "@/public/project2.webp";
 import project3 from "@/public/project3.webp";
 
@@ -62,11 +62,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Trà sữa Top One",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: project1,
+      "This is the website of a milk tea cafeteria, built with ReactJs, Tailwind CSS, and Supabase database.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Redux",
+      "React Query",
+      "Tailwind",
+      "Supabase",
+    ],
+    imageUrl: project6,
   },
   {
     title: "rmtDev",
@@ -91,17 +98,9 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
-  "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "React Query",
   "Framer Motion",
+  "Git",
 ] as const;
