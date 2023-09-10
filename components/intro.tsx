@@ -18,7 +18,7 @@ export default function Intro() {
   return (
     <section
       ref={ref}
-      className="mb-28 max-w-[50rem] scroll-mt-[100rem] "
+      className="mb-16 max-w-[50rem] scroll-mt-[100rem] "
       id="home"
     >
       <div className="flex items-center justify-center">
@@ -61,9 +61,14 @@ export default function Intro() {
         Hello, my name is <span className="font-bold">Do Ngoc Son.</span> I'm a{" "}
         <span className="font-bold">self-taught</span> web developer with{" "}
         <span className="font-bold">a passion </span> for web development, and{" "}
-        <span className="font-bold"> a love </span>for learning new things. I
-        enjoy building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold"> a love </span>for learning new things. I am
+        currently focused on developing responsive{" "}
+        <span className="font-bold"> front-end </span> web applications while
+        also expanding my knowledge of{" "}
+        <span className="font-bold"> back-end </span> technologies so that I can
+        create more <span className="underline"> complete</span> and{" "}
+        <span className="underline"> robust </span>
+        applications.
       </motion.h1>
       <motion.div
         animate={{ opacity: 1, y: 0 }}
@@ -85,26 +90,26 @@ export default function Intro() {
         <a
           href="/CV.pdf"
           download
-          className="bg-white px-7 py-3 borderBlack group flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105  active:scale-[102%] transition"
+          className="bg-white px-7 py-3 dark:bg-white/10 dark:text-white/60 borderBlack group flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105  active:scale-[102%] transition"
         >
           My Cv
           <AiOutlineDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
         <a
-          href="https://www.linkedin.com/in/ng%E1%BB%8Dc-s%C6%A1n-%C4%91%E1%BB%97-4a2457247/"
+          href="https://github.com/dngocson"
           target="blank"
-          className="bg-white focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-[1.02] transition borderBlack p-4 flex items-center gap-2 text-[1.4rem] rounded-full text-gray-700"
+          className="bg-white focus:scale-110 dark:bg-white/10 dark:text-white/60  hover:scale-110 hover:text-gray-950 active:scale-[102%] transition p-4 borderBlack flex items-center text-[1.35rem] gap-2 rounded-full text-gray-700"
         >
-          <BsLinkedin />
+          <FaGithubSquare />
         </a>
 
         <a
-          href="https://github.com/dngocson"
+          href="https://www.linkedin.com/in/ng%E1%BB%8Dc-s%C6%A1n-%C4%91%E1%BB%97-4a2457247/"
           target="blank"
-          className="bg-white focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-[102%] transition p-4 borderBlack flex items-center text-[1.35rem] gap-2 rounded-full text-gray-700"
+          className="bg-white focus:scale-110 dark:bg-white/10 dark:text-white/60  hover:scale-110 hover:text-gray-950 active:scale-[1.02] transition borderBlack p-4 flex items-center gap-2 text-[1.4rem] rounded-full text-gray-700"
         >
-          <FaGithubSquare />
+          <BsLinkedin />
         </a>
       </motion.div>
     </section>

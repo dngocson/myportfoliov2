@@ -16,10 +16,10 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        For the past few years, I’ve been working as a system engineer for a
-        Japanese automation company. However, I’ve always had a passion for web
-        development. Recently, I decided to follow my heart and make a career
-        change to pursue my dream of becoming a web developer.
+        For the past few years, I’ve been working as a instrumentation engineer
+        for a Japanese automation company. However, I’ve always had a passion
+        for web development. Recently, I decided to follow my heart and make a
+        career change to pursue my dream of becoming a web developer.
       </p>
       <p className="mb-3">
         I have always been fascinated by the power of technology and the endless

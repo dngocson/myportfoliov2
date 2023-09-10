@@ -3,8 +3,9 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import project6 from "@/public/project6.webp";
+import project1 from "@/public/project1.webp";
+import project4 from "@/public/project4.webp";
 import project2 from "@/public/project2.webp";
-import project3 from "@/public/project3.webp";
 
 export const links = [
   {
@@ -35,28 +36,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "HCM International University / IU-VNU",
+    location: "Automation Control",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated from HCM International University in 2020 with a degree in Automation Control.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Instrumentation Engineer",
+    location: "Azbil Viet Nam",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "At Azbil Vietnam, I acquired the skills to work with various automation systems, conduct comprehensive testing, and manage documentation related to these systems.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021 - April 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Front-end Developer",
+    location: "Self-taught",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "After resigning from my previous role, I have dedicated my efforts towards becoming a front-end web developer, with a particular focus on ReactJs and NextJs.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "April 2023 - present",
   },
 ] as const;
 
@@ -68,26 +69,42 @@ export const projectsData = [
     tags: [
       "React",
       "TypeScript",
+      "Tailwind",
       "Redux",
       "React Query",
-      "Tailwind",
+      "React Hook Form",
       "Supabase",
     ],
     imageUrl: project6,
+    sourceUrl: "https://github.com/dngocson/toponeCoffee",
+    deployUrl: "https://trasuatopone.online/",
   },
   {
-    title: "rmtDev",
+    title: "My Shop",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "An e-commerce website, built with ReactJs, Tailwind CSS. Key features include  a dark mode with responsive design, user registration and authentication.",
+    tags: ["React", "Tailwind", "Redux", "Firebase", "Leaflet library"],
+    imageUrl: project1,
+    sourceUrl: "https://github.com/dngocson/ProjectReact-1",
+    deployUrl: "https://reactjs-project-450f5.web.app/",
+  },
+  {
+    title: "Lucy Pet Care",
+    description:
+      "A simple landing page for a pet care center, build with ReactJs and Scss. It features a responsive design that looks great on any device.",
+    tags: ["React", "Javascript", "Scss"],
+    imageUrl: project4,
+    sourceUrl: "https://github.com/dngocson/ProjectHTML2",
+    deployUrl: "https://projecthtml2.netlify.app/",
+  },
+  {
+    title: "Viet Nam Travel",
+    description:
+      "A simple landing page for a travel agent company, build with Html and Scss. It features a responsive design that looks great on any device.",
+    tags: ["Html", "Javascript", "Scss", "leaftlet library"],
     imageUrl: project2,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: project3,
+    sourceUrl: "https://github.com/dngocson/ProjectHTML",
+    deployUrl: "https://react-41f63.web.app/",
   },
 ] as const;
 

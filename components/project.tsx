@@ -10,6 +10,8 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  sourceUrl,
+  deployUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -43,6 +45,22 @@ export default function Project({
               </li>
             ))}
           </ul>
+          <div className="flex justify-between mt-2">
+            <a
+              className="bg-white/[0.8]  hover:scale-110 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-green-600 rounded-full dark:text-green-400 dark:bg-white/10"
+              href={sourceUrl}
+              target="blank"
+            >
+              Source
+            </a>
+            <a
+              className="bg-white/[0.8] hover:scale-110 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-green-600 rounded-full dark:text-green-400 dark:bg-white/10"
+              href={deployUrl}
+              target="blank"
+            >
+              Demo
+            </a>
+          </div>
         </div>
         <Image
           src={imageUrl}
