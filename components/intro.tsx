@@ -58,7 +58,7 @@ export default function Intro() {
         transition={{ type: "tween", duration: 0.2 }}
         className="mb-10 mt-4 text-2xl font-medium !leading-[1.5] sm:text-3xl"
       >
-        Hello, my name is <span className="font-bold">Do Ngoc Son.</span> I'm a{" "}
+        Hello, my name is <span className="font-bold">Do Ngoc Son.</span> I am a{" "}
         <span className="font-bold">self-taught</span> web developer with{" "}
         <span className="font-bold">a passion </span> for web development, and{" "}
         <span className="font-bold"> a love </span>for learning new things. I am
