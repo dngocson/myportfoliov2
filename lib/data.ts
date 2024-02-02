@@ -7,6 +7,15 @@ import project1 from "@/public/project1.webp";
 import project4 from "@/public/project4.webp";
 import project2 from "@/public/project2.webp";
 
+type TExperience = {
+  title: string;
+  location: string;
+  description: string;
+  icon: JSX.Element;
+  date: string;
+  position?: string; // This property is now optional
+};
+
 export const links = [
   {
     name: "Home",
@@ -17,10 +26,6 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
     name: "Skills",
     hash: "#skills",
   },
@@ -29,35 +34,39 @@ export const links = [
     hash: "#experience",
   },
   {
+    name: "Projects",
+    hash: "#projects",
+  },
+  {
     name: "Contact",
     hash: "#contact",
   },
 ] as const;
 
-export const experiencesData = [
+export const experiencesData: TExperience[] = [
   {
     title: "HCM International University / IU-VNU",
     location: "Automation Control",
     description:
       "I graduated from HCM International University in 2020 with a degree in Automation Control.",
     icon: React.createElement(LuGraduationCap),
-    date: "2020",
+    date: "March 2020",
   },
   {
     title: "Instrumentation Engineer",
     location: "Azbil Viet Nam",
     description:
-      "At Azbil Vietnam, I acquired the skills to work with various automation systems, conduct comprehensive testing, and manage documentation related to these systems.",
+      "At Azbil Vietnam, I acquired the skills to work with various automation systems, conduct comprehensive testing, and manage documentation.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - April 2023",
+    date: "March 2020 - August 2021",
   },
   {
-    title: "Front-end Developer",
-    location: "Self-taught",
+    title: "Front-end Engineer",
+    location: "Azbil Viet Nam",
     description:
-      "After resigning from my previous role, I have dedicated my efforts towards becoming a front-end web developer, with a particular focus on ReactJs and NextJs.",
+      "Thanks to the support and opportunities provided by my department, I have been able to dedicate my efforts towards becoming a front-end web developer, specializing in ReactJs and NextJs",
     icon: React.createElement(FaReact),
-    date: "April 2023 - present",
+    date: "August 2021 - June 2023",
   },
 ] as const;
 
@@ -113,11 +122,34 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
-  "React",
-  "Next.js",
+  "ReactJs",
+  "Nextjs",
   "Tailwind",
   "Redux",
   "React Query",
+  "React-hook-form",
   "Framer Motion",
+  "NodeJs",
+  "MongoDB",
+  "MySQL",
   "Git",
 ] as const;
+
+export const companyProjectData = [
+  {
+    id: 1,
+    title: "Project and Workload Management Application",
+    desciption: [
+      "In today’s fast-paced business environment, effective project and workload management is crucial. Recognizing this need, we developed an internal tool that revolutionizes the way to manage projects and employee workloads",
+      "Project and Workload Management Application is an internal tool designed to streamline project management and employee workload registration. Built with React, Redux, React-Hook-Form, and Rechart, it provides real-time visibility into projects and workloads, promoting efficiency and productivity within teams.",
+    ],
+  },
+  {
+    id: 2,
+    title: "Azbil HomePage",
+    desciption: [
+      "In today’s fast-paced business environment, effective project and workload management is crucial. Recognizing this need, we developed an internal tool that revolutionizes the way to manage projects and employee workloads",
+      "Project and Workload Management Application is an internal tool designed to streamline project management and employee workload registration. Built with React, Redux, React-Hook-Form, and Rechart, it provides real-time visibility into projects and workloads, promoting efficiency and productivity within teams.",
+    ],
+  },
+];

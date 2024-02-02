@@ -15,23 +15,24 @@ export default function About() {
       ref={ref}
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        For the past few years, I’ve been working as a instrumentation engineer
-        for a Japanese automation company. However, I’ve always had a passion
-        for web development. Recently, I decided to follow my heart and make a
-        career change to pursue my dream of becoming a web developer.
+      <p className="mb-3 text-balance">
+        For the past two years, I have been working as a front-end web
+        developer, specializing in ReactJS. In that role, I was given the
+        opportunity to delve into the core features of React and work
+        extensively with its ecosystem. Currently, I am focusing on expanding my
+        knowledge in back-end technologies to build more comprehensive and
+        robust applications.
       </p>
-      <p className="mb-3">
-        I have always been fascinated by the power of technology and the endless
-        possibilities it offers. As a self-taught web developer, I am constantly
-        learning and expanding my skills, driven by my desire to create
+      <p className="mb-3 text-balance">
+        The power of technology and its endless possibilities have always
+        fascinated me. My passion for web development drives me to continually
+        learn and enhance my skills. I am motivated by my desire to create
         innovative and impactful solutions.
       </p>
-      <p>
-        I am excited to embark on this new journey and am confident that my
-        experience as a system engineer, combined with my determination and
-        passion for web development, will enable me to succeed in this new
-        field.
+      <p className="text-balance">
+        As I embark on this exciting journey, I am confident that my experience,
+        coupled with my determination and passion for web development, will pave
+        the way for my success.
       </p>
     </motion.section>
   );

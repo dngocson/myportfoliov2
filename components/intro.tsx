@@ -59,10 +59,14 @@ export default function Intro() {
         className="mb-10 mt-4 text-2xl font-medium !leading-[1.5] sm:text-3xl"
       >
         Hello, my name is <span className="font-bold">Do Ngoc Son.</span>{" "}
-        I&#39;m a <span className="font-bold">self-taught</span> web developer
-        with <span className="font-bold">a passion </span> for web development,
-        and <span className="font-bold"> a love </span>for learning new things.
-        I&#39;m currently focused on developing responsive{" "}
+        I&#39;m a <span className="font-bold">front-end</span> web developer
+        with <span className="font-bold">over a year </span> of experience as a{" "}
+        <span className="underline">React JS</span> Developer. I excel in{" "}
+        <span className="font-bold">challenging</span> environments,
+        demonstrating my ability to{" "}
+        <span className="font-bold">work under pressure</span> and maintain a
+        high level of <span className="font-bold">responsibility</span>. I&#39;m
+        currently focused on developing responsive{" "}
         <span className="font-bold"> front-end </span> web applications while
         also expanding my knowledge of{" "}
         <span className="font-bold"> back-end </span> technologies so that I can
@@ -105,7 +109,7 @@ export default function Intro() {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/ng%E1%BB%8Dc-s%C6%A1n-%C4%91%E1%BB%97-4a2457247/"
+          href="https://www.linkedin.com/in/ngoc-son-do-4a2457247/"
           target="blank"
           className="bg-white focus:scale-110 dark:bg-white/10 dark:text-white/60  hover:scale-110 hover:text-gray-950 active:scale-[1.02] transition borderBlack p-4 flex items-center gap-2 text-[1.4rem] rounded-full text-gray-700"
         >
