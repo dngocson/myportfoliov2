@@ -68,11 +68,11 @@ export const experiencesData: TExperience[] = [
     icon: React.createElement(FaReact),
     date: "August 2021 - June 2023",
   },
-] as const;
+];
 
 export const projectsData = [
   {
-    title: "Trà sữa Top One",
+    title: "TopOne milktea",
     description:
       "This is the website of a milk tea cafeteria, built with ReactJs, Tailwind CSS, and Supabase database.",
     tags: [
@@ -96,6 +96,16 @@ export const projectsData = [
     imageUrl: project1,
     sourceUrl: "https://github.com/dngocson/ProjectReact-1",
     deployUrl: "https://reactjs-project-450f5.web.app/",
+  },
+  {
+    title: "TopOne milktea - Back-end",
+    description:
+      "Key features include JWT authentication and verification, image upload, CRUD operations for Users and Administrators.",
+    tags: ["Nodejs", "Express", "Typescript", "MongoDb", "Cloudinary"],
+    imageUrl: project6,
+    sourceUrl: "https://github.com/dngocson/trasuatoponev2-backend",
+    deployUrl:
+      "https://documenter.getpostman.com/view/29306286/2s9YeD9tUB#ea11ee04-40f1-4736-ac61-104884525eff",
   },
   {
     title: "Lucy Pet Care",
@@ -140,16 +150,18 @@ export const companyProjectData = [
     id: 1,
     title: "Project and Workload Management Application",
     desciption: [
-      "In today’s fast-paced business environment, effective project and workload management is crucial. Recognizing this need, we developed an internal tool that revolutionizes the way to manage projects and employee workloads",
-      "Project and Workload Management Application is an internal tool designed to streamline project management and employee workload registration. Built with React, Redux, React-Hook-Form, and Rechart, it provides real-time visibility into projects and workloads, promoting efficiency and productivity within teams.",
+      "The Project and Workload Management Application is an in-house tool engineered to enhance project management and employee workload tracking. It offers real-time insights into project progress and workloads, fostering team efficiency and productivity",
+      "My responsibilities : Creating highly responsive UI components using React, managing form handling and validation, executing data visualization, conducting application testing and debugging, collaborating with the back-end team for RESTful API integration, and ensuring the quality of the UI.",
+      "Technologies: React, Redux-toolkit / RTK-query, Typescript, React-Hook-Form, and Rechart, TailwindCss.",
     ],
   },
   {
     id: 2,
-    title: "Azbil HomePage",
+    title: "Yakiya Food and Restaurant",
     desciption: [
-      "In today’s fast-paced business environment, effective project and workload management is crucial. Recognizing this need, we developed an internal tool that revolutionizes the way to manage projects and employee workloads",
-      "Project and Workload Management Application is an internal tool designed to streamline project management and employee workload registration. Built with React, Redux, React-Hook-Form, and Rechart, it provides real-time visibility into projects and workloads, promoting efficiency and productivity within teams.",
+      "We developed an all-inclusive website for the restaurant, highlighting their menu and facilities while also providing a platform for customer reservations and orders. Additionally, the site is equipped with features to monitor food inventory, billing, and revenue.",
+      "Responsibilities include: Developing interactive user interface components using React, form management and validation , implementing data visualization techniques, working with the back-end team to integrate RESTful APIs, and ensuring the quality of the user interface.",
+      "Technologies: React, Redux-toolkit, Typescript, Formik, Rechart, React-quey, Scss.",
     ],
   },
 ];
