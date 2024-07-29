@@ -16,12 +16,11 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-balance">
-        For the past two years, I have been working as a front-end web
-        developer, specializing in ReactJS. In that role, I was given the
-        opportunity to delve into the core features of React and work
-        extensively with its ecosystem. Currently, I am focusing on expanding my
-        knowledge in back-end technologies to build more comprehensive and
-        robust applications.
+        For the past year, I have been working as a front-end web developer
+        specializing in ReactJS. This role has allowed me to delve into
+        React&apos;s core features and work extensively with its ecosystem.
+        Currently, I am focusing on expanding my knowledge of back-end
+        technologies to build more comprehensive and robust applications.
       </p>
       <p className="mb-3 text-balance">
         The power of technology and its endless possibilities have always

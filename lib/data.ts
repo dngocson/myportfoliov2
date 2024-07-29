@@ -58,15 +58,23 @@ export const experiencesData: TExperience[] = [
     description:
       "At Azbil Vietnam, I acquired the skills to work with various automation systems, conduct comprehensive testing, and manage documentation.",
     icon: React.createElement(CgWorkAlt),
-    date: "March 2020 - August 2021",
+    date: "March 2020 - December 2022",
   },
   {
-    title: "Front-end Engineer",
-    location: "Azbil Viet Nam",
+    title: "FPT Academy",
+    location: "React course",
     description:
-      "Thanks to the support and opportunities provided by my department, I have been able to dedicate my efforts towards becoming a front-end web developer, specializing in ReactJs and NextJs",
+      "I took the Front-end Web Development course at FPT Academy. In this course, I learned the basics of ReactJs, NextJs, and other web development technologies.",
+    icon: React.createElement(LuGraduationCap),
+    date: "December 2023 - April 2024",
+  },
+  {
+    title: "Front-end Developer",
+    location: "FPT Software",
+    description:
+      "I am currently working as a front-end developer at FPT Software. I am responsible for developing and maintaining the user interface of web applications.",
     icon: React.createElement(FaReact),
-    date: "August 2021 - June 2023",
+    date: "April 2024 - Now",
   },
 ];
 
@@ -116,15 +124,6 @@ export const projectsData = [
     sourceUrl: "https://github.com/dngocson/ProjectHTML2",
     deployUrl: "https://projecthtml2.netlify.app/",
   },
-  {
-    title: "Viet Nam Travel",
-    description:
-      "A simple landing page for a travel agent company, build with Html and Scss. It features a responsive design that looks great on any device.",
-    tags: ["Html", "Javascript", "Scss", "leaftlet library"],
-    imageUrl: project2,
-    sourceUrl: "https://github.com/dngocson/ProjectHTML",
-    deployUrl: "https://react-41f63.web.app/",
-  },
 ] as const;
 
 export const skillsData = [
@@ -148,20 +147,11 @@ export const skillsData = [
 export const companyProjectData = [
   {
     id: 1,
-    title: "Project and Workload Management Application",
+    title: "Impacto",
     desciption: [
-      "The Project and Workload Management Application is an in-house tool engineered to enhance project management and employee workload tracking. It offers real-time insights into project progress and workloads, fostering team efficiency and productivity",
-      "My responsibilities : Creating highly responsive UI components using React, managing form handling and validation, executing data visualization, conducting application testing and debugging, collaborating with the back-end team for RESTful API integration, and ensuring the quality of the UI.",
-      "Technologies: React, Redux-toolkit / RTK-query, Typescript, React-Hook-Form, and Rechart, TailwindCss.",
-    ],
-  },
-  {
-    id: 2,
-    title: "Yakiya Food and Restaurant",
-    desciption: [
-      "We developed an all-inclusive website for the restaurant, highlighting their menu and facilities while also providing a platform for customer reservations and orders. Additionally, the site is equipped with features to monitor food inventory, billing, and revenue.",
-      "Responsibilities include: Developing interactive user interface components using React, form management and validation , implementing data visualization techniques, working with the back-end team to integrate RESTful APIs, and ensuring the quality of the user interface.",
-      "Technologies: React, Redux-toolkit, Typescript, Formik, Rechart, React-quey, Scss.",
+      "Designging a website that provides assessment solutions for a company's Sustainable Development Goals (SDGs) involves detailing the structure, content and design element.",
+      "My responsibilities : Creating highly responsive UI components using React, managing form handling and validation, executing data visualization, collaborating with the back-end team for RESTful API integration, and ensuring the quality of the UI.",
+      "Technologies: Nextjs, Mantine, Typescript, and Rechart, TailwindCss, ReactQuery, Axios",
     ],
   },
 ];

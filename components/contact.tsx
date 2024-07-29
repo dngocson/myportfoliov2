@@ -6,7 +6,8 @@ import { useSectionInview } from "@/lib/hook";
 import { sendEmail } from "@/actions/sendEmail";
 
 import SubmitBtn from "./submit-btn";
-import toast from "react-hot-toast/headless";
+import toast from "react-hot-toast";
+
 export default function Contact() {
   const { ref } = useSectionInview("Contact");
 
