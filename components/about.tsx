@@ -18,9 +18,12 @@ export default function About() {
       <p className="mb-3 text-balance">
         For the past year, I have been working as a front-end web developer
         specializing in ReactJS. This role has allowed me to delve into
-        React&apos;s core features and work extensively with its ecosystem.
-        Currently, I am focusing on expanding my knowledge of back-end
-        technologies to build more comprehensive and robust applications.
+        React&apos;s core features and work extensively with its ecosystem. I
+        have a good grasp of Git, am familiar with Git flow and Git conventions,
+        and have experience with the Scrum and Agile frameworks. I am proficient
+        in English and can effectively communicate in the language, whether it’s
+        writing detailed reports, participating in discussions, or giving
+        presentations.
       </p>
       <p className="mb-3 text-balance">
         The power of technology and its endless possibilities have always

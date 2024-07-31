@@ -66,7 +66,7 @@ export const experiencesData: TExperience[] = [
     description:
       "I took the Front-end Web Development course at FPT Academy. In this course, I learned the basics of ReactJs, NextJs, and other web development technologies.",
     icon: React.createElement(LuGraduationCap),
-    date: "December 2023 - April 2024",
+    date: "January 2023 - December 2024",
   },
   {
     title: "Front-end Developer",
@@ -74,7 +74,7 @@ export const experiencesData: TExperience[] = [
     description:
       "I am currently working as a front-end developer at FPT Software. I am responsible for developing and maintaining the user interface of web applications.",
     icon: React.createElement(FaReact),
-    date: "April 2024 - Now",
+    date: "January 2024 - Now",
   },
 ];
 
